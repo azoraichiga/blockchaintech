@@ -83,9 +83,6 @@ class Blockchain:
             
         return True
 
-
-
-
 if __name__ == "__main__":
     trans = Transaction("Alice", "Bob", 10)
     trans.print()
